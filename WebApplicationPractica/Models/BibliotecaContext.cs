@@ -10,7 +10,7 @@ namespace WebApplicationPractica.Models
 
         }
 
-        public DbSet<Libro> equipos { get; set; }
-        public DbSet<Autor> equipos { get; set; }
+        public DbSet<Libro> libro { get; set; }
+        public DbSet<Autor> autor { get; set; }
     }
 }
